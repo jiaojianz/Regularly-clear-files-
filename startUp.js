@@ -1,9 +1,10 @@
 const path = require('path')
+const config = require('./config')
 const Service = require('node-windows').Service
 
 const svc = new Service({
-    name: 'File Action',
-    description: 'file action',
+    name: config.serverName,
+    description: config.serverDescribtion,
     // script: 'C:\\project\\wang-f\\auto-file\\bin\\www',
     script: path.resolve('./bin/www'),
     nodeOptions: [

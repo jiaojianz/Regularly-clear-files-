@@ -1,9 +1,10 @@
 const path = require('path')
+const config = require('./config')
 const Service = require('node-windows').Service
 
 const svc = new Service({
-    name: 'File Action',
-    description: 'file action',
+    name: config.serverName,
+    description: config.serverDescribtion,
     script: path.resolve('./bin/www'), // C:\project\research-development-intranet\bin\www
     nodeOptions: [
         '--harmony',

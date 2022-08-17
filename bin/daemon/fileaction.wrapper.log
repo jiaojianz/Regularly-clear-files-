@@ -1,2 +1,0 @@
-2022-08-16 14:37:21 - Starting C:\softWare\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\project\wang-f\auto-file\node_modules\node-windows\lib\wrapper.js --file C:\project\wang-f\auto-file\bin\www --scriptoptions= --log "File Action wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
-2022-08-16 14:37:21 - Started 18488

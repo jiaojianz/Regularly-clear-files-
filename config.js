@@ -3,7 +3,7 @@ const config = {
   saveTimeFilePath: 'C:\\文件\\txt\\test.txt',
   serverName: 'Regularly Clear Files',
   serverDescribtion: '定时清除文件 单文件或文件夹下的所有文件',
-  thresholdTime: 1000 * 60 * 60
+  thresholdTime: 1000 * 60 * 10
 }
 
 module.exports = config

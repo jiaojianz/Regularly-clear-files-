@@ -55,6 +55,7 @@ if (timeFileExistSign) {
   readFile()
 } else {
   writeFile()
+  checkTimer()
 }
 
 function readFile () {
